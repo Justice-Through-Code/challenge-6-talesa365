@@ -20,19 +20,26 @@ restaurant_1 = {
 
 def explore_data():
     # 1.1 TODO: Print the URL of the website of Four Barrel Coffee.
-
+    print(restaurant_1['url'])
+   
     # 1.2 TODO: Print the latitude and longitude of Four Barrel Coffee, using one print statement.
-
+    print(restaurant_1["latitude", "longitude"])
+    
     # 1.3 TODO: Print the complete address of the Four Barrel Coffee, formatted as a string - 
     # it should include the address, city, state and the zip code, with commas between them e.g.:
     # "375 Valencia St, San Francisco, CA, 94103"
-
+    
+explore_data()
 
 def favorite_restaurant():
     # Let's ask the user for some information about their favorite restaurant
-
+   
     # 2.1 TODO: Create an empty dictionary in a variable called `favorite_restaurant`
-
+    favorite_restaurant = {}
+    restaurant =(input('what is your favorite place to eat?'))
+    address = (input('where is it located at?'))
+    favorite_dish = (input('what is your favorite dish?'))
+     
     # 2.2 TODO: Ask the user for the restaurant `name`, `address`, and their `favorite_dish`
     # Add all three of these as key value pairs in your new dictionary, ala:
     #    favorite_restaurant  = {
