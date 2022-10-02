@@ -53,11 +53,11 @@ def favorite_restaurant():
     #    }
     favorite_restaurant["name"] = input("What is the name of your favorite restaurant? ")
     favorite_restaurant ["address"] = input("what is the address of your favorite restaurant? ")
-    favorite_restaurant["favorite_dish"] = input("what is your favorite dish there? ")
+    favorite_restaurant["favorite_dish"] = input("what is your favorite dish? ")
     
     
     # 2.3 TODO: Print out your dictionary to make sure it populated correctly
-    print (favorite_restaurant)
+    print(favorite_restaurant)
 
     # Oh no, the restaurant stopped serving the user's favorite dish!
     # 2.4 TODO: Remove the `favorite_dish` key/value pair from the dictionary
