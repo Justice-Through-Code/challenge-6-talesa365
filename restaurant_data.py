@@ -82,7 +82,7 @@ def clean_print():
     #      `name: Four Barrel Coffee
     #       url: https://www.yelp.com/biz/four-barrel-coffee-san-francisco`
     # etc etc
-    for pair in restaurant_1:
-        print(pair, restaurant_1[pair])
+    for key, info in restaurant_1.items():
+        print(f'{key}: {info}')
         
 #clean_print()
