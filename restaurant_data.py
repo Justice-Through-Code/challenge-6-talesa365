@@ -51,9 +51,9 @@ def favorite_restaurant():
     #        "address" : "116th & Broadway, NY 10016",
     #        "favorite_dish" : "Chicken BLT Sandwich"
     #    }
-    favorite_restaurant["name"] = input("What is the name of your favorite restaurant?")
-    favorite_restaurant ["address"] = input("what is the address of your favorite restaurant?")
-    favorite_restaurant["favorite_dish"] = input("what is your favorite dish there?")
+    favorite_restaurant["name"] = input("What is the name of your favorite restaurant? ")
+    favorite_restaurant ["address"] = input("what is the address of your favorite restaurant? ")
+    favorite_restaurant["favorite_dish"] = input("what is your favorite dish there? ")
     
     
     # 2.3 TODO: Print out your dictionary to make sure it populated correctly
